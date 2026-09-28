@@ -79,11 +79,4 @@ R8  enlace(E,L1,L2) Y NO cerrada(E)                       => transbordo_ok(E,L1,
 Agregue la estación en `COORDENADAS` y las líneas en `LINEAS` (velocidad + lista ordenada
 de paradas). Los tramos, transbordos y costos se deducen automáticamente por las reglas.
 
-## Flujo de trabajo sugerido en Git (para evidenciar el aporte de cada integrante)
 
-```bash
-git checkout -b feature/motor-reglas     # cada integrante trabaja en su rama
-git add motor_reglas.py && git commit -m "Motor de inferencia hacia adelante"
-git push origin feature/motor-reglas     # y abre Merge Request
-git log --format='%an | %ad | %s' --date=short
-```
